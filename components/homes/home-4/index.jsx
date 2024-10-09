@@ -39,11 +39,11 @@ export default function Home4({ onePage = false, dark = false }) {
           <div className="row mb-70 mb-sm-50">
             <div className="col-md-12 col-lg-10 text-center mx-auto">
               <h2 className="section-title mb-40 mb-xs-30">
-                Over 200 successful students have fulfilled their dream of
-                studying in Ireland with our help.
+                Over 200 Successful Students Have Fulfilled Their Dream Of
+                Studying In Ireland With Our Help.
               </h2>
               <p className="section-descr dark-white mb-0">
-                From Dreamers to Achievers See the Success Stories
+                From Dreamers To Achievers See The Success Stories
               </p>
             </div>
           </div>
