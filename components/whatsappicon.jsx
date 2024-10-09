@@ -33,7 +33,7 @@ const WhatsappIcon = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaWhatsapp size={50} />
+            <FaWhatsapp size={40} />
           </a>
           <style jsx>{`
             .whatsapp-icon {

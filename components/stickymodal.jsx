@@ -40,14 +40,21 @@ const StickyContactModal = () => {
           </div>
           <style jsx>{`
             .modal-text-hidden {
-              /* Default visibility */
-              display: block;
+              display: block; /* Default visibility */
             }
 
             @media (max-width: 576px) {
               .modal-text-hidden {
-                /* Hide text on small screens */
-                display: none;
+                display: none; /* Hide text on small screens */
+              }
+              .sticky-contact-modal {
+                background-color: transparent; /* Remove background on small screens */
+                border: none; /* Remove border on small screens */
+                padding: 0; /* Remove padding on small screens */
+                box-shadow: none; /* Remove shadow on small screens */
+              }
+              .modal-buttons {
+                justify-content: center; /* Center buttons horizontally */
               }
             }
 

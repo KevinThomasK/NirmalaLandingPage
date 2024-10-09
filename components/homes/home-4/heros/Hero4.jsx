@@ -211,8 +211,8 @@ export default function Hero4({ dark }) {
               dark ? "light-content" : ""
             } position-relative d-flex align-items-center`}
           >
-            <div className="w-100 text-center text-lg-start">
-              <h1 className="hs-title-9 mb-40 mb-sm-20 wow fadeInUp">
+            <div className="w-100 text-center text-lg-start custommargin">
+              <h1 className="hs-title-9 mb-40 mb-sm-20 wow fadeInUp ">
                 Are you Looking for a Best University to Study in Ireland?
               </h1>
               <p
@@ -235,7 +235,7 @@ export default function Hero4({ dark }) {
                   </a>
                 </div>
                 {/* Features List */}
-                <div className="mt-n10">
+                <div className="mt-n10 customcenter">
                   {/* Features List Item */}
                   <div className="d-flex justify-content-center justify-content-lg-start mt-10">
                     <div

@@ -4251,6 +4251,11 @@ html:not(.mobile) .wow-p {
 /*
  * Logo (in navigation panel)
  */
+.custommargin {
+  margin: 10px;
+}
+
+
 
 .sticky-contact-modal {
   position: fixed;
