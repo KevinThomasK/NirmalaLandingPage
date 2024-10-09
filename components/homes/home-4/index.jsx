@@ -197,10 +197,10 @@ export default function Home4({ onePage = false, dark = false }) {
                   alt="Image Description"
                 />
               </div>
-              <p className="section-descr-medium mb-50 mb-sm-40">
+              {/* <p className="section-descr-medium mb-50 mb-sm-40">
                 Contact us now for a free counseling session and let our experts
                 guide you in choosing the right Courses for you.
-              </p>
+              </p> */}
               <div className="local-scroll text-center">
                 {onePage ? (
                   <a
