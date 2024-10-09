@@ -108,18 +108,13 @@ export default function Home4({ onePage = false, dark = false }) {
       {/* custom */}
       <section className="page-section bg-primary-1 bg-color-alpha-90 bg-scroll light-content">
         {/* Desktop Overlay */}
-
-        <div className="">
-          <div className="row text-center">
+        <div className="container">
+          <div className="row text-center g-4">
             {/* Column 1 */}
             <div className="col-md-3">
               <div className="icon-text px-3">
-                {" "}
-                {/* Added px-3 for horizontal padding */}
-                <FaUniversity style={{ fontSize: "100px", color: "#20d723" }} />
-                <p className="large-text mt-3">
-                  {" "}
-                  {/* Replaced inline style with Bootstrap class */}
+                <FaUniversity style={{ fontSize: "90px", color: "#20d723" }} />
+                <p className="large-text mt-3" style={{ wordSpacing: "10px" }}>
                   20+ Partner Universities In Ireland
                 </p>
               </div>
@@ -128,12 +123,10 @@ export default function Home4({ onePage = false, dark = false }) {
             {/* Column 2 */}
             <div className="col-md-3">
               <div className="icon-text px-3">
-                {" "}
-                {/* Added px-3 for horizontal padding */}
                 <FaUserGraduate
                   style={{ fontSize: "100px", color: "orange" }}
                 />
-                <p className="large-text mt-3">
+                <p className="large-text mt-3" style={{ wordSpacing: "10px" }}>
                   200+ Students Successfully Enrolled
                 </p>
               </div>
@@ -142,30 +135,29 @@ export default function Home4({ onePage = false, dark = false }) {
             {/* Column 3 */}
             <div className="col-md-3">
               <div className="icon-text px-3">
-                {" "}
-                {/* Added px-3 for horizontal padding */}
                 <FaAward style={{ fontSize: "100px", color: "#ffc107" }} />
-                <p className="large-text mt-3">Scholarships Up To 50%</p>
+                <p className="large-text mt-3" style={{ wordSpacing: "10px" }}>
+                  Scholarships Up To 50%
+                </p>
               </div>
             </div>
 
             {/* Column 4 */}
             <div className="col-md-3">
               <div className="icon-text px-3">
-                {" "}
-                {/* Added px-3 for horizontal padding */}
                 <FaBook style={{ fontSize: "100px", color: "#dc3545" }} />
-                <p className="large-text mt-3">Courses From 10 Lakhs</p>
+                <p className="large-text mt-3" style={{ wordSpacing: "10px" }}>
+                  Courses From 10 Lakhs
+                </p>
               </div>
             </div>
           </div>
         </div>
-
         {/* End Desktop Overlay */}
         {/* Mobile Overlay */}
-
         {/* End Mobile Overlay */}
       </section>
+
       {/* custom end */}
       <section
         className={`page-section pb-0 scrollSpysection   ${
@@ -180,8 +172,8 @@ export default function Home4({ onePage = false, dark = false }) {
               style={{ paddingLeft: "5%", paddingRight: "5%" }}
             >
               <h2 className="section-title mb-40 mb-xs-30">
-                Discover the Field of Studies with excellent placement
-                opportunities.
+                Discover the Field of Studies With Excellent Placement
+                Opportunities.
               </h2>
 
               {/* <p className="section-descr mb-0">

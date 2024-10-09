@@ -9,7 +9,6 @@ const StickyContactModal = () => {
   const handleScroll = () => {
     // Check if the user has scrolled down
     if (window.scrollY > 200) {
-      // Adjust this value as needed
       setIsVisible(true);
     } else {
       setIsVisible(false);
@@ -40,21 +39,23 @@ const StickyContactModal = () => {
           </div>
           <style jsx>{`
             .modal-text-hidden {
-              display: block; /* Default visibility */
+              display: block;
             }
 
             @media (max-width: 576px) {
               .modal-text-hidden {
-                display: none; /* Hide text on small screens */
+                display: none;
               }
               .sticky-contact-modal {
-                background-color: transparent; /* Remove background on small screens */
-                border: none; /* Remove border on small screens */
-                padding: 0; /* Remove padding on small screens */
-                box-shadow: none; /* Remove shadow on small screens */
+                background-color: transparent;
+                border: none;
+                padding: 0;
+                box-shadow: none;
+                width: 70%;
+                max-width: 250px;
               }
               .modal-buttons {
-                justify-content: center; /* Center buttons horizontally */
+                justify-content: center;
               }
             }
 
@@ -64,40 +65,49 @@ const StickyContactModal = () => {
               right: 20px;
               background-color: white;
               border: 1px solid #ccc;
-              padding: 15px;
+              padding: 10px;
               box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-              z-index: 1000; /* Ensure it stays above other content */
+              z-index: 1000;
+              width: 70%;
+              max-width: 400px;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
             }
 
             .modal-buttons {
               display: flex;
-              gap: 10px; /* Space between buttons */
+              gap: 10px;
             }
 
-            .btn-call {
-              background-color: #28a745; /* Green color for "Call Now" button */
+            .btn-call,
+            .btn-enquire {
+              width: 120px; /* Slightly wider */
+              background-color: #28a745;
               color: white;
               border: none;
-              padding: 10px 20px;
+              padding: 10px 15px; /* Adjusted padding */
               cursor: pointer;
-              transition: background-color 0.3s ease; /* Smooth transition */
+              border-radius: 25px; /* Rounded corners */
+              font-size: 16px; /* Make text slightly larger */
+              transition: background-color 0.3s ease, transform 0.2s ease;
             }
 
             .btn-enquire {
-              background-color: #007bff; /* Blue color for "Enquire Now" button */
-              color: white;
-              border: none;
-              padding: 10px 20px;
-              cursor: pointer;
-              transition: background-color 0.3s ease; /* Smooth transition */
+              background-color: #007bff;
+            }
+
+            .btn-call:hover,
+            .btn-enquire:hover {
+              transform: translateY(-2px); /* Slight lift effect */
             }
 
             .btn-call:hover {
-              background-color: #218838; /* Darker shade for "Call Now" button hover */
+              background-color: #218838;
             }
 
             .btn-enquire:hover {
-              background-color: #0056b3; /* Darker shade for "Enquire Now" button hover */
+              background-color: #0056b3;
             }
           `}</style>
         </div>
