@@ -28,10 +28,7 @@ export default function Portfolio() {
               textAlign: "center", // Center text and elements inside the div
             }}
           >
-            <Link
-              href={`/corporate-portfolio-single/${item.id}`}
-              className="portfolio-5-link"
-            >
+            <a href="#contact_form" className="portfolio-5-link">
               <div className="portfolio-5-image">
                 <div className="portfolio-5-image-bg wow scalexIn" />
                 <div className="wow fadeIn " data-wow-delay="1s">
@@ -70,7 +67,7 @@ export default function Portfolio() {
                   Know Admission Procedures
                 </button>
               </div>
-            </Link>
+            </a>
           </div>
         ))}
         {/* End Portfolio Item */}

@@ -55,7 +55,7 @@ export default function Home4({ onePage = false, dark = false }) {
             {onePage ? (
               <>
                 <a
-                  href="#contact"
+                  href="#contact_form"
                   className={`btn btn-mod ${
                     dark ? "btn-dark" : "btn-w"
                   } btn-with-icon btn-circle`}
@@ -206,7 +206,7 @@ export default function Home4({ onePage = false, dark = false }) {
               <div className="local-scroll text-center">
                 {onePage ? (
                   <a
-                    href="#contact"
+                    href="#contact_form"
                     className={`btn btn-mod ${
                       dark ? "btn-dark" : "btn-w"
                     } btn-with-icon btn-circle btn-large`}
@@ -273,7 +273,7 @@ export default function Home4({ onePage = false, dark = false }) {
             {onePage ? (
               <>
                 <a
-                  href="#contact"
+                  href="#contact_form"
                   className={`btn btn-mod ${
                     dark ? "btn-dark" : "btn-w"
                   } btn-with-icon btn-circle`}

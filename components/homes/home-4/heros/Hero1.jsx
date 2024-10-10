@@ -28,7 +28,7 @@ export default function Hero1() {
                 <div className="local-scroll mb-60 mb-sm-50">
                   <a
                     className="btn btn-mod btn-color btn-large btn-round btn-hover-anim"
-                    href="#contact"
+                    href="#contact_form"
                   >
                     <span>Book Free Counselling Now</span>
                   </a>
