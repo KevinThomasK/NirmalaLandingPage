@@ -56,7 +56,12 @@ export default function Header4({ links }) {
               <a
                 href="tel:+91 82899 69433"
                 className="btn" // Use appropriate classes for styling
-                style={{ padding: "10px 20px", borderRadius: "5px" }}
+                style={{
+                  padding: "2px 20px",
+
+                  color: "#146DC6", // Optional: Set text color to match the border
+                  textDecoration: "none", // Optional: to remove underline
+                }}
               >
                 <i
                   className="mi-mobile size-24 color-primary-1"
@@ -69,13 +74,22 @@ export default function Header4({ links }) {
             <li>
               <a
                 href="tel:+91 82899 69433"
-                style={{ display: "flex", alignItems: "center" }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  borderRadius: "5px", // Optional: Rounded corners
+                  border: "2px solid #146DC6", // Border color #146DC6
+                  padding: "2px 20px", // Padding around the content
+                  textDecoration: "none", // Optional: to remove underline
+                  color: "#146DC6", // Optional: Set text color to match the border
+                }}
               >
                 <h2
                   style={{
                     fontSize: "20px",
                     margin: 0,
                     paddingRight: "8px",
+                    color: "#146DC6", // Set the color for "Call Now"
                   }}
                 >
                   Call Now
@@ -84,12 +98,13 @@ export default function Header4({ links }) {
                   className="mi-mobile size-24 color-primary-1"
                   style={{ marginRight: "5px" }}
                 />
-                <span>+91 82899 69433</span>
+                <span style={{ color: "#146DC6" }}>+91 82899 69433</span>
               </a>
             </li>
           )}
         </ul>
       </div>
+
       {/* End Main Menu */}
     </div>
   );

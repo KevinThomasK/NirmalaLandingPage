@@ -9,7 +9,7 @@ export default function Testimonials2() {
       {testimonials4.map((testimonial) => (
         <div
           key={testimonial.id}
-          className="col-md-4 mt-50 wow fadeInLeft"
+          className="col-6 col-md-4 mt-50 wow fadeInLeft" // Added col-6 for mobile and col-md-4 for medium screens
           data-wow-delay={testimonial.delay}
         >
           <div className="text-center px-lg-4">
@@ -21,7 +21,9 @@ export default function Testimonials2() {
                 alt={testimonial.caption} // Add alt text for better accessibility
               />
             </div>
-            <div className="testimonials-5-text">{testimonial.text}</div>
+            <div className="testimonials-4-text fw-bold">
+              {testimonial.text}
+            </div>
             <div className="testimonials-5-caption">{testimonial.caption}</div>
           </div>
         </div>

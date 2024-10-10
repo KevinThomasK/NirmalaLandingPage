@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Portfolio() {
   return (
     <>
-      <div className="row mb-70 mb-sm-50">
+      <div className="row mb-70 mb-sm-50 custommt">
         <div className=" mb-md-40">
           <h2 className="section-title mb-40 mb-xs-30">
             We Will Help You to Choose the Right University

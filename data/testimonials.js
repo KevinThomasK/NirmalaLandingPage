@@ -116,6 +116,30 @@ export const testimonials4 = [
     caption: "Cork, Ireland",
     image: "/assets/images/nirmal-lp/student3.jpg",
   },
+  {
+    id: 4,
+    delay: "0s",
+    stars: 4.5,
+    text: "Dublin Business School",
+    caption: "Dublin, Ireland",
+    image: "/assets/images/nirmal-lp/student4.jpg",
+  },
+  {
+    id: 5,
+    delay: "0.15s",
+    stars: 4.5,
+    text: "Griffith College",
+    caption: "Cork, Ireland",
+    image: "/assets/images/nirmal-lp/student5.jpg",
+  },
+  {
+    id: 6,
+    delay: "0.3s",
+    stars: 4.5,
+    text: "Griffith College",
+    caption: "Cork, Ireland",
+    image: "/assets/images/nirmal-lp/student6.jpg",
+  },
 ];
 
 export const testimonialItems = [

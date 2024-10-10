@@ -72,9 +72,9 @@ export const qualities = [
 ];
 
 export const features = [
-  { id: 1, text: "No credit card required" },
-  { id: 2, text: "Free 30 minute consultation" },
-  { id: 3, text: "Free marketing report" },
+  { id: 1, text: "20+ Partner Universities In Ireland" },
+  { id: 2, text: "200+ Students Successfully Enrolled" },
+  { id: 3, text: "Scholarships Up To 50%" },
 ];
 
 export const features2 = [

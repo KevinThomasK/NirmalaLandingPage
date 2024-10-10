@@ -9,15 +9,16 @@ export default function Hero1() {
           {/* Home Section Text */}
           <div className="col-lg-6 col-xl-5 offset-xl-1 d-flex align-items-center order-first order-lg-last mb-md-60">
             <div className="w-100 text-center text-lg-start">
-              <h1 className="hs-title-9 mb-40 mb-sm-20 wow fadeInUp">
-                Global Marketing Consulting Agency
+              <h1 className="hs-title-8 mb-40 mb-sm-20 wow fadeInUp">
+                Are you Looking For Best University To Study In{" "}
+                <span style={{ color: "#CA346B" }}>Ireland</span>
               </h1>
+
               <p
                 className="hs-descr mb-50 mb-sm-40 wow fadeInUp"
                 data-wow-delay="0.15s"
               >
-                We’re a global marketing company delivering innovative solutions
-                to our clients.
+                Find The Top Universities In Ireland Will Give you an Admit.
               </p>
               <div
                 className="wow fadeInUp wch-unset"
@@ -25,12 +26,9 @@ export default function Hero1() {
                 data-wow-offset={0}
               >
                 <div className="local-scroll mb-60 mb-sm-50">
-                  <a
-                    href="#contact"
-                    className="btn btn-mod btn-color btn-large btn-round btn-hover-anim"
-                  >
-                    <span>Get a Consultation</span>
-                  </a>
+                  <button className="btn btn-mod btn-color btn-large btn-round btn-hover-anim">
+                    <span>Book Free Counselling Now</span>
+                  </button>
                 </div>
                 {/* Features List */}
                 <div className="mt-n10">
@@ -72,7 +70,7 @@ export default function Hero1() {
               {/* Main Image */}
               <div className="composition-8-image bg-white">
                 <Image
-                  src="/assets/images/demo-corporate/hs-image-2.jpg"
+                  src="/assets/images/nirmal-lp/new.jpg"
                   width={706}
                   height={800}
                   alt="Image Description"
@@ -103,10 +101,10 @@ export default function Hero1() {
                     <span data-btn-animate="y">
                       <span className="btn-animate-y">
                         <span className="btn-animate-y-1">
-                          Marketing Consulting
+                          Business Analytics
                         </span>
                         <span className="btn-animate-y-2" aria-hidden="true">
-                          Marketing Consulting
+                          Business Analytics
                         </span>
                       </span>
                     </span>
@@ -123,10 +121,10 @@ export default function Hero1() {
                     <span data-btn-animate="y">
                       <span className="btn-animate-y">
                         <span className="btn-animate-y-1">
-                          Search Engine Optimization
+                          Post Graduation Courses
                         </span>
                         <span className="btn-animate-y-2" aria-hidden="true">
-                          Search Engine Optimization
+                          Post Graduation Courses
                         </span>
                       </span>
                     </span>
@@ -142,11 +140,9 @@ export default function Hero1() {
                     </span>
                     <span data-btn-animate="y">
                       <span className="btn-animate-y">
-                        <span className="btn-animate-y-1">
-                          Social Media Marketing
-                        </span>
+                        <span className="btn-animate-y-1">BSc Nursing</span>
                         <span className="btn-animate-y-2" aria-hidden="true">
-                          Social Media Marketing
+                          BSc Nursing
                         </span>
                       </span>
                     </span>

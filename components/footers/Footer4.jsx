@@ -56,13 +56,15 @@ export default function Footer4() {
       </div> */}
       {/* Footer Text */}
       <div className="row mt-20">
-        <div>
+        <div className="d-flex justify-content-between align-items-center">
           <div className="col-md-6 mb-sm-40">
-            Designed By SpiderWorks
-            {/* {new Date().getFullYear()}. */}
+            Copyright © 2024. Nirmala Study Abroad
           </div>
-          <a href="">Privacy Policy</a>
+          <a href="" className="ms-3">
+            Privacy Policy
+          </a>
         </div>
+
         {/* Social Links */}
         {/* <div className="col-md-6 footer-2-social-links text-md-end mb-md-40">
           {socialMediaLinks.map((elm, i) => (

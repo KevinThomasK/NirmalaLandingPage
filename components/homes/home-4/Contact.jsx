@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Contact() {
   return (
     <>
-      <div className="row wow fadeInUp">
+      <div className="row wow fadeInUp ">
         {/* Left Column */}
         <div className="col-lg-5 mb-md-50 mb-sm-30 d-flex align-items-strech">
           <div

@@ -101,7 +101,8 @@ export default function Home4({ onePage = false, dark = false }) {
 
       <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
         <h2 className="section-title mb-40 mb-xs-30">
-          Why choose Nirmala Study Abroad For Your Ireland Study Journey ?
+          Why choose Nirmala Study Abroad For Your{" "}
+          <span style={{ color: "#C8336A" }}>Ireland</span> Study Journey?
         </h2>
       </div>
 
@@ -177,8 +178,9 @@ export default function Home4({ onePage = false, dark = false }) {
               </h2>
 
               {/* <p className="section-descr mb-0">
-        Contact us now for a free counseling session and let our experts guide you in choosing the right Irish university for you.
-      </p> */}
+                Contact us now for a free counseling session and let our experts
+                guide you in choosing the right Irish university for you.
+              </p> */}
             </div>
           </div>
         </div>
@@ -253,7 +255,10 @@ export default function Home4({ onePage = false, dark = false }) {
         } `}
         id="portfolio"
       >
-        <div className="container position-relative">
+        <div
+          className="container position-relative negative-margin-top-sm"
+          style={{ marginTop: "-100px" }}
+        >
           <Portfolio />
 
           <div className="col-md-8 offset-md-2 text-center mb-20">
@@ -306,6 +311,7 @@ export default function Home4({ onePage = false, dark = false }) {
         className={`page-section  scrollSpysection  ${
           dark ? "bg-dark-1 light-content" : ""
         } `}
+        style={{ marginTop: "-150px" }}
         id="clients-stories"
       >
         <Testimonials />
@@ -326,8 +332,11 @@ export default function Home4({ onePage = false, dark = false }) {
           />
         </div>
         {/* End Decorative Line */}
-        <div className="container position-relative">
-          <div className="row mb-80 mb-sm-60">
+        <div
+          className="container position-relative"
+          style={{ marginTop: "-180px" }}
+        >
+          <div className="row mb-80 mb-sm-60 custommt">
             <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
               <h2 className="section-title mb-40 mb-xs-30">
                 Embark On Your Ireland Study Abroad Journey Today

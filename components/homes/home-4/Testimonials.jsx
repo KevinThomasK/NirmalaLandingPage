@@ -19,15 +19,19 @@ export default function Testimonials() {
           {!(i % 2) ? (
             <div className="row mb-80 mb-sm-60 ">
               <div className="col-md-5 col-lg-4 offset-lg-1 mb-sm-40">
-                <div className="overflow-hidden round ">
+                <a
+                  href="https://www.youtube.com/shorts/GyHOUNvEDUw"
+                  target="_blank"
+                  className="overflow-hidden round "
+                >
                   <Image
                     src={elm.imageSrc}
-                    width={656}
-                    height={800}
+                    width={356}
+                    height={500}
                     alt="Image Description"
                     className="wow scaleOutIn"
                   />
-                </div>
+                </a>
               </div>
               <div className="col-md-6 offset-md-1 col-lg-5 offset-lg-1 d-flex align-items-center wow fadeInUp">
                 <blockquote className="testimonials-6-item">
@@ -37,7 +41,7 @@ export default function Testimonials() {
                   >
                     “
                   </div>
-                  <p className="testimonials-6-text mb-40">{elm.quote}</p>
+                  <p className="testimonials-5-text mb-40">{elm.quote}</p>
                   <div className="section-line mb-10" />
                   <footer>
                     <div className="testimonials-6-author">{elm.author}</div>
@@ -51,15 +55,19 @@ export default function Testimonials() {
           ) : (
             <div className="row">
               <div className="col-md-5 offset-md-1 col-lg-4 offset-lg-1 order-md-last mb-sm-40">
-                <div className="overflow-hidden round">
+                <a
+                  href="https://www.youtube.com/shorts/WsKRtOEetpE"
+                  target="_blank"
+                  className="overflow-hidden round"
+                >
                   <Image
                     src={elm.imageSrc}
-                    width={656}
-                    height={800}
+                    width={356}
+                    height={500}
                     alt="Image Description"
                     className="wow scaleOutIn"
                   />
-                </div>
+                </a>
               </div>
               <div className="col-md-6 col-lg-5 offset-lg-1 d-flex align-items-center wow fadeInUp">
                 <blockquote className="testimonials-6-item">
@@ -69,7 +77,7 @@ export default function Testimonials() {
                   >
                     “
                   </div>
-                  <p className="testimonials-6-text mb-40">{elm.quote}</p>
+                  <p className="testimonials-5-text mb-40">{elm.quote}</p>
                   <div className="section-line mb-10" />
                   <footer>
                     <div className="testimonials-6-author">{elm.author}</div>
