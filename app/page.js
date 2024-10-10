@@ -7,10 +7,8 @@ import { corporateOnepage } from "@/data/menu";
 import StickyContactModal from "@/components/stickymodal";
 
 export const metadata = {
-  title:
-    "Home 4 Main Demo Onepage || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
-  description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Nirmala Landing Page",
+  description: "Nirmala Landing Page",
 };
 export default function Home4MainDemoOnepage() {
   return (
