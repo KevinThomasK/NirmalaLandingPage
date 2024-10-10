@@ -5,6 +5,7 @@ import Home4 from "@/components/homes/home-4";
 import Hero1 from "@/components/homes/home-4/heros/Hero1";
 import { corporateOnepage } from "@/data/menu";
 import StickyContactModal from "@/components/stickymodal";
+import WhatsappIcon from "@/components/whatsappicon";
 
 export const metadata = {
   title: "Nirmala Landing Page",
@@ -30,6 +31,7 @@ export default function Home4MainDemoOnepage() {
             <Footer4 />
           </footer>
           <StickyContactModal />
+          <WhatsappIcon />
         </div>{" "}
       </div>
     </>

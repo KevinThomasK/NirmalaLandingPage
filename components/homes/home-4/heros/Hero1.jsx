@@ -11,7 +11,7 @@ export default function Hero1() {
             <div className="w-100 text-center text-lg-start">
               <h1 className="hs-title-8 mb-40 mb-sm-20 wow fadeInUp">
                 Are you Looking For Best University To Study In{" "}
-                <span style={{ color: "#CA346B" }}>Ireland</span>
+                <span style={{ color: "#CA346B" }}>Ireland</span> ?
               </h1>
 
               <p
