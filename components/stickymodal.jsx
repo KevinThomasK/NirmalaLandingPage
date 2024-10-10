@@ -31,7 +31,8 @@ const Stickymodal = () => {
         <h5 className="mob-dis-none">Enquire Now for Exclusive offers</h5>
         <a
           className="btn d-flex align-items-center justify-content-center"
-          href="#contactsec"
+          target="_blank"
+          href="https://wa.me/+918289969433"
         >
           <svg
             width="18"
