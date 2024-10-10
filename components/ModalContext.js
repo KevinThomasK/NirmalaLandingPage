@@ -1,23 +1,19 @@
-"use client"; // Required for managing state in client-side components
-
+// context/ModalContext.js
 import { createContext, useContext, useState } from "react";
 
-// Create the modal context
 const ModalContext = createContext();
 
-// Modal provider to manage the modal state
 export const ModalProvider = ({ children }) => {
-  const [isModalVisible, setIsModalVisible] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-  const openModal = () => setIsModalVisible(true);
-  const closeModal = () => setIsModalVisible(false);
+  const openModal = () => setIsOpen(true);
+  const closeModal = () => setIsOpen(false);
 
   return (
-    <ModalContext.Provider value={{ isModalVisible, openModal, closeModal }}>
+    <ModalContext.Provider value={{ isOpen, openModal, closeModal }}>
       {children}
     </ModalContext.Provider>
   );
 };
 
-// Custom hook to access modal state and functions
 export const useModal = () => useContext(ModalContext);

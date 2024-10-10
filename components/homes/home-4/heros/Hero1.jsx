@@ -26,9 +26,12 @@ export default function Hero1() {
                 data-wow-offset={0}
               >
                 <div className="local-scroll mb-60 mb-sm-50">
-                  <button className="btn btn-mod btn-color btn-large btn-round btn-hover-anim">
+                  <a
+                    className="btn btn-mod btn-color btn-large btn-round btn-hover-anim"
+                    href="#contact"
+                  >
                     <span>Book Free Counselling Now</span>
-                  </button>
+                  </a>
                 </div>
                 {/* Features List */}
                 <div className="mt-n10">

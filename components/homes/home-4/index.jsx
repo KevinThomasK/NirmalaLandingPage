@@ -55,7 +55,7 @@ export default function Home4({ onePage = false, dark = false }) {
             {onePage ? (
               <>
                 <a
-                  href="#services"
+                  href="#contact"
                   className={`btn btn-mod ${
                     dark ? "btn-dark" : "btn-w"
                   } btn-with-icon btn-circle`}
@@ -273,7 +273,7 @@ export default function Home4({ onePage = false, dark = false }) {
             {onePage ? (
               <>
                 <a
-                  href="#clients-stories"
+                  href="#contact"
                   className={`btn btn-mod ${
                     dark ? "btn-dark" : "btn-w"
                   } btn-with-icon btn-circle`}
