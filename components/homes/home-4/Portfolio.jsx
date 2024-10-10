@@ -40,10 +40,15 @@ export default function Portfolio() {
                   />
                 </div>
               </div>
-              <h3 className="portfolio-5-title">
+              <h3 className="portfolio-4-title">
                 <span>{item.title}</span>
               </h3>
-              <div className="portfolio-5-number">{item.number}</div>
+              <div
+                className="portfolio-4-number"
+                style={{ fontWeight: "bold" }}
+              >
+                {item.number}
+              </div>
               <div className="portfolio-5-number-descr">{item.description}</div>
               <div className="portfolio-5-number-descr">
                 {item.description2}

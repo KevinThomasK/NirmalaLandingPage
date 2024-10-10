@@ -18,7 +18,8 @@ export default function Hero1() {
                 className="hs-descr mb-50 mb-sm-40 wow fadeInUp"
                 data-wow-delay="0.15s"
               >
-                Find The Top Universities In Ireland Will Give you an Admit.
+                Find The Top Universities In Ireland Which Will Give you an
+                Admit.
               </p>
               <div
                 className="wow fadeInUp wch-unset"
@@ -73,7 +74,7 @@ export default function Hero1() {
               {/* Main Image */}
               <div className="composition-8-image bg-white">
                 <Image
-                  src="/assets/images/nirmal-lp/new.jpg"
+                  src="/assets/images/nirmal-lp/trinitynew.jpg"
                   width={706}
                   height={800}
                   alt="Image Description"

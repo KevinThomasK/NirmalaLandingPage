@@ -28,11 +28,11 @@ const Stickymodal = () => {
   return (
     isVisible && (
       <div className="fixedcta d-flex align-content-center justify-content-between">
-        <h5 className="mob-dis-none">Enquire Now for Exclusive offers</h5>
+        <h5 className="mob-dis-none">Get A Free Consultation Now</h5>
         <a
           className="btn d-flex align-items-center justify-content-center"
           target="_blank"
-          href="https://wa.me/+918289969433"
+          href="https://wa.me/++918301921909"
         >
           <svg
             width="18"
@@ -56,7 +56,7 @@ const Stickymodal = () => {
         </a>
         <a
           className="btn_black d-flex align-items-center justify-content-center"
-          href="tel:+918289969433"
+          href="tel:+918301921909"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -2,9 +2,9 @@ export const contactItems = [
   {
     iconClass: "mi-location",
     title: "Address",
-    text: "Nirmala Study Abroad Thrissur First Floor, Selex Mall, East Fort, Pallikkulam, Thrissur, Kerala",
+    text: "Nirmala admin block, opp. Private Bus Stand, South Chalakudy,  680307, Kerala",
     link: {
-      url: "https://goo.gl/maps/7Vw1PBhxx5BaXStr8",
+      url: "https://maps.app.goo.gl/1TtNLR7TVq239WSS8",
       text: "See Map",
       rel: "nofollow noopener",
       target: "_blank",
@@ -15,16 +15,16 @@ export const contactItems = [
     title: "Email",
     text: "nsa@nirmalacollege.edu.in",
     link: {
-      url: "mailto:ibthemes21@gmail.com",
+      url: "mailto:nirmalacollege.edu.in",
       text: "Say Hello",
     },
   },
   {
     iconClass: "mi-mobile",
     title: "Phone",
-    text: "+91 82899 69433",
+    text: "+91 83019 21909",
     link: {
-      url: "tel:+61383767284",
+      url: "tel:+918301921909",
       text: "Call now",
     },
   },

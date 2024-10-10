@@ -239,27 +239,27 @@ export const portfolios3 = [
 export const portfolios4 = [
   {
     id: 25,
-    imageSrc: "/assets/images/nirmal-lp/trinity.jpg",
-    title: "Trinity College",
-    number: "Dublin",
-    description: "Next Intake January",
-    description2: "Approx Fees From 14,000 Euros",
+    imageSrc: "/assets/images/nirmal-lp/SETU.jpg",
+    title: "South East Technological University",
+    number: "Waterford, Carlow",
+    description: "Next Intake Jan/Sep 2025",
+    description2: "Courses From 10 Lakhs Onwards",
   },
   {
     id: 26,
-    imageSrc: "/assets/images/nirmal-lp/dublin.jpeg",
-    title: "University College Dublin",
-    number: "Dublin",
-    description: "Next Intake January",
-    description2: "Approx Fees From 19,500 Euros",
+    imageSrc: "/assets/images/nirmal-lp/Maynooth.jpg",
+    title: "Maynooth University",
+    number: "Maynooth ",
+    description: "Next Intake Jan/Sep 2025",
+    description2: "Courses From 10 Lakhs Onwards",
   },
   {
     id: 27,
     imageSrc: "/assets/images/nirmal-lp/cork.jpg",
-    title: "University College Cork",
-    number: "Cork",
-    description: "Next Intake January",
-    description2: "Approx Fees From 17,600 Euros",
+    title: "Griffith College",
+    number: "Dublin,Limerick,Cork",
+    description: "Next Intake Jan/Sep 2025",
+    description2: "Courses From 10 Lakhs Onwards",
   },
   {
     id: 28,
@@ -267,7 +267,7 @@ export const portfolios4 = [
     title: "University Of Galway",
     number: "Galway",
     description: "Next Intake January",
-    description2: "Approx Fees From 18,500 Euros",
+    description2: "Courses From 10 Lakhs Onwards",
   },
   {
     id: 29,
@@ -275,7 +275,7 @@ export const portfolios4 = [
     title: "University Of Limerick",
     number: "Limerick Munster",
     description: "Next Intake January",
-    description2: "Approx Fees From 13,738 Euros",
+    description2: "Courses From 10 Lakhs Onwards",
   },
   {
     id: 30,
@@ -283,7 +283,7 @@ export const portfolios4 = [
     title: "Dublin City University",
     number: "Dublin, Leinster",
     description: "Next Intake January",
-    description2: "Approx Fees From 15,000 Euros",
+    description2: "Courses From 10 Lakhs Onwards",
   },
 ];
 
