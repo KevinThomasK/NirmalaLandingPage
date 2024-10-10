@@ -80,13 +80,13 @@ export default function Contact() {
                 <div className="col-md-6">
                   {/* Email */}
                   <div className="form-group">
-                    <label htmlFor="email">Phone</label>
+                    <label htmlFor="email">Email</label>
                     <input
                       type="email"
                       name="email"
                       id="email"
                       className="input-lg round form-control"
-                      placeholder="Enter your phone number"
+                      placeholder="Enter your email"
                       pattern=".{5,100}"
                       required
                       aria-required="true"
@@ -97,13 +97,26 @@ export default function Contact() {
               </div>
               {/* Email */}
               <div className="form-group">
-                <label htmlFor="email">Email</label>
+                <label htmlFor="phone">Phone</label>
                 <input
-                  type="email"
-                  name="email"
-                  id="email"
+                  type="number"
+                  name="phone"
+                  id="phone"
                   className="input-lg round form-control"
-                  placeholder="Enter your Email"
+                  placeholder="Enter your phone number"
+                  pattern=".{5,100}"
+                  required
+                  aria-required="true"
+                />
+              </div>
+              <div className="form-group">
+                <label htmlFor="whatsapp">WhatsApp</label>
+                <input
+                  type="number"
+                  name="whatsapp"
+                  id="whatsapp"
+                  className="input-lg round form-control"
+                  placeholder="Enter your whatsapp number"
                   pattern=".{5,100}"
                   required
                   aria-required="true"

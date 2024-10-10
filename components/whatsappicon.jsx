@@ -29,7 +29,7 @@ const WhatsappIcon = () => {
       {isVisible && (
         <div className="whatsapp-icon">
           <a
-            href="https://wa.me/your-number"
+            href="https://wa.me/+918301921909"
             target="_blank"
             rel="noopener noreferrer"
           >

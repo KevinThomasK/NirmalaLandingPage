@@ -4271,7 +4271,7 @@ html:not(.mobile) .wow-p {
   position: fixed;
   left: 50%;
   transform: translate(-50%, 0);
-  bottom: 50px;
+  bottom: 15px;
   z-index: 10;
 }
 
