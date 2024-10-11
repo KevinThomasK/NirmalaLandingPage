@@ -18,6 +18,8 @@ export default function Header4({ links }) {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+
+
   return (
     <div className="main-nav-sub container">
       {/* Logo */}

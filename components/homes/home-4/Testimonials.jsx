@@ -1,7 +1,7 @@
+"use client";
 import { testimonialItems } from "@/data/testimonials";
 import React from "react";
 import Image from "next/image";
-import HeroVideoDialog from "@/components/ui/hero-video-dialog";
 
 export default function Testimonials() {
   return (
@@ -24,7 +24,7 @@ export default function Testimonials() {
                   target="_blank"
                   className="overflow-hidden round "
                 >
-                  <Image
+                  <img
                     src={elm.imageSrc}
                     width={356}
                     height={500}
@@ -60,7 +60,7 @@ export default function Testimonials() {
                   target="_blank"
                   className="overflow-hidden round"
                 >
-                  <Image
+                  <img
                     src={elm.imageSrc}
                     width={356}
                     height={500}

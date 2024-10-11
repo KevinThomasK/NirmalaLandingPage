@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 
 import Service from "./Service";
 import Portfolio from "./Portfolio";
@@ -13,11 +14,22 @@ import Link from "next/link";
 import Testimonials2 from "./Testimonials2";
 import Image from "next/image";
 import { FaUniversity, FaUserGraduate, FaAward, FaBook } from "react-icons/fa";
+import { ModalTrigger } from "@/components/Modal";
 
 export default function Home4({ onePage = false, dark = false }) {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
   return (
     <>
       <hr className={`mt-0 mb-0 ${dark ? "white" : ""} `} />
+      <ModalTrigger isOpen={isModalOpen} onClose={closeModal} />
       <section
         className={`page-section scrollSpysection  ${
           dark ? "bg-dark-1 light-content" : ""
@@ -54,8 +66,8 @@ export default function Home4({ onePage = false, dark = false }) {
           <div className="local-scroll text-center">
             {onePage ? (
               <>
-                <a
-                  href="#contact_form"
+                <button
+                  onClick={openModal}
                   className={`btn btn-mod ${
                     dark ? "btn-dark" : "btn-w"
                   } btn-with-icon btn-circle`}
@@ -71,7 +83,7 @@ export default function Home4({ onePage = false, dark = false }) {
                   <span data-btn-animate="y">
                     <AnimateButton text={"Get A Free Consultation"} />
                   </span>
-                </a>
+                </button>
               </>
             ) : (
               <>
@@ -205,8 +217,8 @@ export default function Home4({ onePage = false, dark = false }) {
               </p> */}
               <div className="local-scroll text-center">
                 {onePage ? (
-                  <a
-                    href="#contact_form"
+                  <button
+                    onClick={openModal}
                     className={`btn btn-mod ${
                       dark ? "btn-dark" : "btn-w"
                     } btn-with-icon btn-circle btn-large`}
@@ -217,7 +229,7 @@ export default function Home4({ onePage = false, dark = false }) {
                     <span data-btn-animate="y">
                       <AnimateButton text={"Explore More Courses Now"} />
                     </span>
-                  </a>
+                  </button>
                 ) : (
                   <Link
                     href={`/corporate-contact${dark ? "-dark" : ""}`}
@@ -272,8 +284,8 @@ export default function Home4({ onePage = false, dark = false }) {
           <div className="local-scroll text-center">
             {onePage ? (
               <>
-                <a
-                  href="#contact_form"
+                <button
+                  onClick={openModal}
                   className={`btn btn-mod ${
                     dark ? "btn-dark" : "btn-w"
                   } btn-with-icon btn-circle`}
@@ -284,7 +296,7 @@ export default function Home4({ onePage = false, dark = false }) {
                   <span data-btn-animate="y">
                     <AnimateButton text={"Explore More Universities"} />
                   </span>
-                </a>
+                </button>
               </>
             ) : (
               <>
@@ -311,7 +323,7 @@ export default function Home4({ onePage = false, dark = false }) {
         className={`page-section  scrollSpysection  ${
           dark ? "bg-dark-1 light-content" : ""
         } `}
-        style={{ marginTop: "-150px" }}
+        style={{ marginTop: "-100px" }}
         id="clients-stories"
       >
         <Testimonials />

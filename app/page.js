@@ -6,6 +6,7 @@ import Hero1 from "@/components/homes/home-4/heros/Hero1";
 import { corporateOnepage } from "@/data/menu";
 import StickyContactModal from "@/components/stickymodal";
 import WhatsappIcon from "@/components/whatsappicon";
+import Modal from "@/components/Modal";
 
 export const metadata = {
   title: "Nirmala Landing Page",

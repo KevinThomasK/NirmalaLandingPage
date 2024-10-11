@@ -1,40 +1,56 @@
-// components/Modal.js
-import { useEffect } from 'react';
+"use client";
+import React, { useState } from "react";
+import ContactModal from "./ContactModal"; // Import your ContactModal
 
-const Modal = ({ isOpen, onClose }) => {
-  useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
-    } else {
-      document.body.style.overflow = 'unset'; // Enable scrolling when modal is closed
-    }
-  }, [isOpen]);
-
-  if (!isOpen) return null;
+const FullScreenModal = ({ isOpen, onClose }) => {
+  if (!isOpen) return null; // Don't render the modal if it's not open
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-      <div className="bg-white rounded-lg p-5">
-        <h2 className="text-xl font-bold">Contact Us</h2>
-        <form>
-          <div className="mb-4">
-            <label className="block text-sm font-medium text-gray-700">Name</label>
-            <input type="text" required className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm" />
+    <div className="custom-modal-backdrop" onClick={onClose}>
+      <div
+        className="custom-modal-container"
+        onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside the modal content
+      >
+        <div className="custom-modal-content">
+          <div className="custom-modal-header">
+            <button
+              type="button"
+              className="custom-close-btn"
+              aria-label="Close"
+              onClick={onClose}
+            >
+              &times;
+            </button>
           </div>
-          <div className="mb-4">
-            <label className="block text-sm font-medium text-gray-700">Email</label>
-            <input type="email" required className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm" />
+          <div className="custom-modal-body">
+            <ContactModal />
           </div>
-          <div className="mb-4">
-            <label className="block text-sm font-medium text-gray-700">Message</label>
-            <textarea required className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm"></textarea>
-          </div>
-          <button type="submit" className="px-4 py-2 bg-blue-600 text-white rounded">Send</button>
-          <button type="button" onClick={onClose} className="ml-2 px-4 py-2 bg-gray-300 rounded">Close</button>
-        </form>
+        </div>
       </div>
     </div>
   );
 };
 
-export default Modal;
+// Updated ModalTrigger to take isOpen and onClose props
+export const ModalTrigger = ({ isOpen, onClose }) => {
+  return (
+    <>
+      {/* <button
+        style={{
+          backgroundColor: "#1961FA",
+          borderColor: "#1961FA",
+          color: "#fff", // White text color
+          padding: "10px 20px", // Increased padding
+          fontSize: "1rem", // Font size
+          borderRadius: "5px", // Rounded corners
+          transition: "background-color 0.3s", // Smooth transition for hover effect
+        }}
+        onClick={onClose} // Close the modal when the button is clicked
+      >
+        Know Admission Procedures
+      </button> */}
+
+      <FullScreenModal isOpen={isOpen} onClose={onClose} />
+    </>
+  );
+};

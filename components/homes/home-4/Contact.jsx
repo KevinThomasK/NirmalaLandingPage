@@ -2,6 +2,7 @@
 import { contactItems } from "@/data/contact";
 import React from "react";
 import Image from "next/image";
+
 export default function Contact() {
   return (
     <>

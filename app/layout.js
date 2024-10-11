@@ -12,6 +12,7 @@ import { parallaxMouseMovement, parallaxScroll } from "@/utlis/parallax";
 import "tippy.js/dist/tippy.css";
 import { init_wow } from "@/utlis/initWowjs";
 import { headerChangeOnScroll } from "@/utlis/changeHeaderOnScroll";
+import { AppWrapper } from "./context";
 
 export default function RootLayout({ children }) {
   const path = usePathname();
@@ -69,7 +70,9 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body className="appear-animate body">{children}</body>
+      <body className="appear-animate body">
+        <AppWrapper>{children}</AppWrapper>
+      </body>
     </html>
   );
 }
