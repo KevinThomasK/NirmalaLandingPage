@@ -72,7 +72,7 @@ export const qualities = [
 ];
 
 export const features = [
-  { id: 1, text: "Admissions Open For 2025 Jan Intakes" },
+  { id: 1, text: "Admissions Open For 2025 Intakes" },
   { id: 2, text: "University Eligibility Check In 24 Hours" },
   { id: 3, text: "Highly Experienced Counselors" },
 ];

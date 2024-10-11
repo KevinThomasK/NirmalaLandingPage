@@ -2,8 +2,7 @@
 import { useState, useEffect } from "react";
 import { features } from "@/data/features";
 import Image from "next/image";
-import { BannerBtm } from "@/components/button";
-import { useAppContext } from "@/app/context";
+//import { BannerBtm } from "@/components/button";
 import { ModalTrigger } from "@/components/Modal";
 
 export default function Hero1() {
@@ -20,12 +19,11 @@ export default function Hero1() {
   useEffect(() => {
     const interval = setInterval(() => {
       setIsModalOpen(true);
-    }, 15000); // Open modal every 5 seconds
+    }, 25000); // Open modal every 25 seconds
 
     return () => clearInterval(interval); // Cleanup on unmount
   }, []);
-  const data = useAppContext();
-  console.log(data, "data");
+
   return (
     <>
       <div className="container position-relative d-flex align-items-center">

@@ -97,14 +97,14 @@ export const testimonials4 = [
     delay: "0s",
     stars: 4.5,
     text: "South East Technological University",
-    caption: "South East Ireland",
+    caption: "Waterford, Carlow",
     image: "/assets/images/nirmal-lp/student.jpg",
   },
   {
     id: 2,
     delay: "0.15s",
     stars: 4.5,
-    text: "National University of Ireland Maynooth”",
+    text: "Maynooth University”",
     caption: "Maynooth, Ireland",
     image: "/assets/images/nirmal-lp/student2.jpg",
   },
@@ -113,7 +113,7 @@ export const testimonials4 = [
     delay: "0.3s",
     stars: 4.5,
     text: "Griffith College",
-    caption: "Cork, Ireland",
+    caption: "Cork, Limerick, Dublin",
     image: "/assets/images/nirmal-lp/student3.jpg",
   },
   {
@@ -129,7 +129,7 @@ export const testimonials4 = [
     delay: "0.15s",
     stars: 4.5,
     text: "Griffith College",
-    caption: "Cork, Ireland",
+    caption: "Cork, Limerick, Dublin",
     image: "/assets/images/nirmal-lp/student5.jpg",
   },
   {
@@ -137,7 +137,7 @@ export const testimonials4 = [
     delay: "0.3s",
     stars: 4.5,
     text: "Griffith College",
-    caption: "Cork, Ireland",
+    caption: "Cork, Limerick, Dublin",
     image: "/assets/images/nirmal-lp/student6.jpg",
   },
 ];
