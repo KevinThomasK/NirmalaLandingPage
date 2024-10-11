@@ -12,7 +12,7 @@ const FullScreenModal = ({ isOpen, onClose }) => {
         onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside the modal content
       >
         <div className="custom-modal-content">
-          <div className="custom-modal-header">
+          <div className="custom-modal-header d-flex justify-content-end">
             <button
               type="button"
               className="custom-close-btn"

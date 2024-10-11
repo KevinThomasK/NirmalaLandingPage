@@ -4480,8 +4480,6 @@ html:not(.mobile) .wow-p {
 
 /* Modal header */
 .custom-modal-header {
-
-  margin-top: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14962,6 +14960,10 @@ html:not(.mobile) .owl-animate-fadeInDown {
 
   .mob-dis-none {
     display: none;
+  }
+
+  .custom-modal-header {
+    padding-top: 50px;
   }
 
 }

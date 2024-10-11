@@ -59,7 +59,7 @@ const ContactForm = () => {
             />
           </div>
 
-          <div className="mb-4">
+          {/* <div className="mb-4">
             <p className="text-muted">
               <small>
                 <i className="bi bi-info-circle"></i> All the fields are
@@ -74,7 +74,7 @@ const ContactForm = () => {
                 .
               </small>
             </p>
-          </div>
+          </div> */}
 
           <button type="button" className="btn btn-primary premium-btn">
             Send Message
