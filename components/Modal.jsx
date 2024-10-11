@@ -1,6 +1,6 @@
 "use client";
-import React, { useState } from "react";
-import ContactForm from "./ContactModal"; // Import your ContactModal
+import React from "react";
+import ContactForm from "./ContactForm"; // Import your ContactModal
 
 const FullScreenModal = ({ isOpen, onClose }) => {
   if (!isOpen) return null; // Don't render the modal if it's not open
