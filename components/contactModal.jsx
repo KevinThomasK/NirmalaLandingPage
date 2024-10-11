@@ -5,7 +5,10 @@ const ContactForm = () => {
   return (
     <div className="container my-5">
       <div className="contact-form  rounded  bg-white">
-        <h2 className="text-center mb-4">Get A Free Consultation</h2>
+        <h2 className="text-center mb-4 mb-md-4 fs-4 fs-md-2">
+          Get A Free Consultation
+        </h2>
+
         <form>
           <div className="row mb-3">
             <div className="col-md-6">
