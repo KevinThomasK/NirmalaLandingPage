@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import ContactModal from "./ContactModal"; // Import your ContactModal
+import ContactForm from "./ContactModal"; // Import your ContactModal
 
 const FullScreenModal = ({ isOpen, onClose }) => {
   if (!isOpen) return null; // Don't render the modal if it's not open
@@ -23,7 +23,7 @@ const FullScreenModal = ({ isOpen, onClose }) => {
             </button>
           </div>
           <div className="custom-modal-body">
-            <ContactModal />
+            <ContactForm />
           </div>
         </div>
       </div>
