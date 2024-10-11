@@ -86,7 +86,7 @@ export default function Portfolio() {
                 >
                   Know Admission Procedures
                 </button> */}
-              <ModalTrigger isOpen={isModalOpen} onClose={closeModal} />
+
               <button
                 style={{
                   backgroundColor: "#1961FA",
@@ -108,6 +108,7 @@ export default function Portfolio() {
 
         {/* End Portfolio Item */}
       </div>
+      <ModalTrigger isOpen={isModalOpen} onClose={closeModal} />
     </>
   );
 }
