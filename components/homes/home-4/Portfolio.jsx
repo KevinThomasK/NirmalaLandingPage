@@ -57,6 +57,7 @@ export default function Portfolio() {
                   width={660}
                   height={472}
                   alt="Portfolio Image"
+                  style={{ maxHeight: "280px" }}
                 />
               </div>
             </div>

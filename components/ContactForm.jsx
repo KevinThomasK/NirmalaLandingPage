@@ -55,25 +55,8 @@ const ContactForm = () => {
             />
           </div>
 
-          {/* <div className="mb-4">
-            <p className="text-muted">
-              <small>
-                <i className="bi bi-info-circle"></i> All the fields are
-                required. By sending the form, you agree to the{" "}
-                <a href="#terms" className="text-decoration-underline">
-                  Terms & Conditions
-                </a>{" "}
-                and{" "}
-                <a href="#privacy" className="text-decoration-underline">
-                  Privacy Policy
-                </a>
-                .
-              </small>
-            </p>
-          </div> */}
-
           <button type="button" className="btn btn-primary premium-btn">
-            Send Message
+            Submit
           </button>
         </form>
       </div>
