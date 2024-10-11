@@ -29,7 +29,8 @@ export default function Portfolio() {
       <div className="row mb-70 mb-sm-50 custommt">
         <div className=" mb-md-40">
           <h2 className="section-title mb-40 mb-xs-30">
-            We Will Help You to Choose the Right University
+            We Will Help You to Choose the Right{" "}
+            <span style={{ color: "#C8336A" }}>University</span>
           </h2>
           <p className="section-descr dark-white mb-0">
             Contact us now for a free counseling session and let our experts

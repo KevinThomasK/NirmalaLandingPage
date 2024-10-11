@@ -52,7 +52,8 @@ export default function Home4({ onePage = false, dark = false }) {
             <div className="col-md-12 col-lg-10 text-center mx-auto">
               <h2 className="section-title mb-40 mb-xs-30">
                 200+ Successful Students Have Fulfilled Their Dream Of Studying
-                In Ireland With Our Help.
+                In <span style={{ color: "#C8336A" }}>Ireland</span> With Our
+                Help.
               </h2>
               <p className="section-descr dark-white mb-0">
                 From Dreamers To Achievers See The Success Stories
@@ -368,7 +369,8 @@ export default function Home4({ onePage = false, dark = false }) {
           <div className="row mb-80 mb-sm-60 custommt">
             <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
               <h2 className="section-title mb-40 mb-xs-30">
-                Embark On Your Ireland Study Abroad Journey Today
+                Embark On Your <span style={{ color: "#C8336A" }}>Ireland</span>{" "}
+                Study Abroad Journey Today
               </h2>
               <p className="section-descr dark-white mb-0">
                 Begin Your Ireland Study Abroad Adventure With Nirmala. Get

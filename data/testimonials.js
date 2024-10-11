@@ -160,7 +160,7 @@ export const testimonialItems = [
     vsrc: "https://www.youtube.com/shorts/WsKRtOEetpE",
   },
   {
-    imageSrc: "/assets/images/nirmal-lp/client3.png",
+    imageSrc: "/assets/images/nirmal-lp/client3.jpg",
     quote:
       "I want to express my sincere gratitude to the entire Nirmala Team for their incredible support throughout my Ireland study abroad journey. From the very start, your guidance made the entire process much smoother, and I truly appreciate how you managed everything—from applications to visas and all the small details. I honestly couldn't have achieved this without your expertise and assistance. I'm thrilled to be taking this next step, and I owe a big part of it to all of you!",
     author: "Jose Pothen",
