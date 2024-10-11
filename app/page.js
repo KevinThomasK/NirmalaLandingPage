@@ -9,8 +9,9 @@ import WhatsappIcon from "@/components/whatsappicon";
 import Modal from "@/components/Modal";
 
 export const metadata = {
-  title: "Nirmala Landing Page",
-  description: "Nirmala Landing Page",
+  title: "Study In Ireland",
+  description:
+    "Find The Top Universities In Ireland Which Will Give You An Admit. Book A Free Counselling Now.",
 };
 export default function Home4MainDemoOnepage() {
   return (
