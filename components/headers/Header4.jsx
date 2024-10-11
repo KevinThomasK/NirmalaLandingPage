@@ -18,13 +18,11 @@ export default function Header4({ links }) {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-
-
   return (
     <div className="main-nav-sub container">
       {/* Logo */}
       <div className="nav-logo-wrap position-static local-scroll">
-        <a href="top" className="logo">
+        <a className="logo">
           <img
             src="/assets/images/nirmal-lp/Logo.png"
             alt="Nirmala Logo"
