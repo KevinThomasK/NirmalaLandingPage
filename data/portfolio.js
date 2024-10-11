@@ -243,7 +243,7 @@ export const portfolios4 = [
     title: "Technological University Dublin",
     number: "Dublin, Leinster ",
     description: "Next Intake Jan/Sep 2025",
-    description2: "Courses From 12 Lakhs Onwards",
+    description2: "Courses From ₹ 12 Lakhs Onwards",
   },
   {
     id: 25,
@@ -251,7 +251,7 @@ export const portfolios4 = [
     title: "Dublin Business School",
     number: "Dublin, Leinster",
     description: "Next Intake Jan/Sep 2025",
-    description2: "Courses From 12 Lakhs Onwards",
+    description2: "Courses From ₹ 12 Lakhs Onwards",
   },
 
   {
@@ -260,7 +260,7 @@ export const portfolios4 = [
     title: "Griffith College",
     number: "Dublin,Limerick,Cork",
     description: "Next Intake Jan/Sep 2025",
-    description2: "Courses From 13 Lakhs Onwards",
+    description2: "Courses From ₹ 13 Lakhs Onwards",
   },
   {
     id: 28,
@@ -268,7 +268,7 @@ export const portfolios4 = [
     title: "University College Dublin",
     number: "Dublin",
     description: "Next Intake Jan/Sep 2025",
-    description2: "Courses From 18 Lakhs Onwards",
+    description2: "Courses From ₹ 18 Lakhs Onwards",
   },
   {
     id: 29,
@@ -276,7 +276,7 @@ export const portfolios4 = [
     title: "Dublin City University",
     number: "Dublin, Leinster",
     description: "Next Intake Jan/Sep 2025",
-    description2: "Courses From 15 Lakhs Onwards",
+    description2: "Courses From ₹ 15 Lakhs Onwards",
   },
   {
     id: 30,
@@ -285,7 +285,7 @@ export const portfolios4 = [
     title: "South East Technological University",
     number: "Waterford, Carlow",
     description: "Next Intake Jan/Sep 2025",
-    description2: "Courses From 13 Lakhs Onwards",
+    description2: "Courses From ₹ 13 Lakhs Onwards",
   },
 ];
 
