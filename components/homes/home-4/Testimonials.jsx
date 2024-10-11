@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Testimonials() {
   return (
-    <div className="container position-relative">
+    <div className="container position-relative ">
       <div className="row">
         <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
           <h2 className="section-title mb-70 mb-sm-50 text-center">
@@ -20,7 +20,7 @@ export default function Testimonials() {
             <div className="row mb-80 mb-sm-60 ">
               <div className="col-md-5 col-lg-4 offset-lg-1 mb-sm-40">
                 <a
-                  href="https://www.youtube.com/shorts/GyHOUNvEDUw"
+                  href={elm.vsrc}
                   target="_blank"
                   className="overflow-hidden round "
                 >
@@ -56,7 +56,7 @@ export default function Testimonials() {
             <div className="row">
               <div className="col-md-5 offset-md-1 col-lg-4 offset-lg-1 order-md-last mb-sm-40">
                 <a
-                  href="https://www.youtube.com/shorts/WsKRtOEetpE"
+                  href={elm.vsrc}
                   target="_blank"
                   className="overflow-hidden round"
                 >

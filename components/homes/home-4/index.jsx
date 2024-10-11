@@ -353,6 +353,7 @@ export default function Home4({ onePage = false, dark = false }) {
           dark ? "bg-dark-1 light-content" : ""
         } `}
         id="contact"
+        style={{ marginTop: "-100px" }}
       >
         <div className="bg-line-3 opacity-025 mb-n90 mb-lg-n70 mb-md-n60 mb-sm-n40">
           <Image
@@ -363,10 +364,7 @@ export default function Home4({ onePage = false, dark = false }) {
           />
         </div>
         {/* End Decorative Line */}
-        <div
-          className="container position-relative"
-          style={{ marginTop: "-180px" }}
-        >
+        <div className="container position-relative">
           <div className="row mb-80 mb-sm-60 custommt">
             <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
               <h2 className="section-title mb-40 mb-xs-30">

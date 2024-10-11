@@ -149,6 +149,7 @@ export const testimonialItems = [
       "I’m incredibly grateful to Nirmala Study Abroad for their unwavering support and guidance throughout my visa application process. Thanks to their expert assistance, I successfully obtained my visa to study at SETU, Ireland. I highly recommend their services to anyone looking for a smooth and reliable study abroad experience!",
     author: "Christo George",
     position: "South East Technological University",
+    vsrc: "https://www.youtube.com/shorts/GyHOUNvEDUw",
   },
   {
     imageSrc: "/assets/images/nirmal-lp/client2.jpg",
@@ -156,6 +157,15 @@ export const testimonialItems = [
       "Hey Nirmala Team, I just wanted to take a moment to thank you for everything you've done to help me with my study abroad journey. From the beginning, your guidance and support made everything so much smoother, and I’m really grateful for how you handled everything—from applications to visas and all the little details. I honestly couldn't have done it without your expertise and help. I'm really excited about this next step, and a lot of it is thanks to you!",
     author: "Nibiya Babu",
     position: "Dublin Business School",
+    vsrc: "https://www.youtube.com/shorts/WsKRtOEetpE",
+  },
+  {
+    imageSrc: "/assets/images/nirmal-lp/client3.png",
+    quote:
+      "I want to express my sincere gratitude to the entire Nirmala Team for their incredible support throughout my Ireland study abroad journey. From the very start, your guidance made the entire process much smoother, and I truly appreciate how you managed everything—from applications to visas and all the small details. I honestly couldn't have achieved this without your expertise and assistance. I'm thrilled to be taking this next step, and I owe a big part of it to all of you!",
+    author: "Jose Pothen",
+    position: "Griffith College",
+    vsrc: "https://youtube.com/shorts/iILeQciMWXc",
   },
 ];
 
