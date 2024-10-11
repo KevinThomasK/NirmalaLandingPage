@@ -72,21 +72,6 @@ export default function Portfolio() {
               className="d-flex justify-content-center"
               style={{ marginTop: "20px" }}
             >
-              {/* <button
-                  className="btn"
-                  style={{
-                    backgroundColor: "#1961FA",
-                    borderColor: "#1961FA",
-                    color: "#fff", // White text color
-                    padding: "10px 20px", // Increased padding
-                    fontSize: "1rem", // Font size
-                    borderRadius: "5px", // Rounded corners
-                    transition: "background-color 0.3s", // Smooth transition for hover effect
-                  }}
-                >
-                  Know Admission Procedures
-                </button> */}
-
               <button
                 style={{
                   backgroundColor: "#1961FA",

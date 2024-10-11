@@ -184,7 +184,26 @@ export default function Home4({ onePage = false, dark = false }) {
               className="col-md-12 text-center"
               style={{ paddingLeft: "5%", paddingRight: "5%" }}
             >
-              <h2 className="section-title mb-40 mb-xs-30">
+              <h2
+                className="section-title mb-40 mb-xs-30"
+                style={{ marginTop: "-30px", textTransform: "capitalize" }}
+              >
+                Bringing <span style={{ color: "#C8336A" }}>70+</span> years of
+                excellence to overseas education.
+              </h2>
+              <p className="section-descr mb-0">
+                We leverage our expertise in education to assist students with
+                the challenging task of selecting a program, applying to
+                universities, obtaining visas and documents, and providing all
+                the necessary support to embark on their education abroad
+                journey. Our team of experienced consultants provides
+                comprehensive guidance tailored to each student’s unique
+                interests, strengths, and career aspirations.
+              </p>
+              <h2
+                className="section-title mb-40 mb-xs-30"
+                style={{ marginTop: "80px" }}
+              >
                 Discover the Field of Studies With Excellent Placement
                 Opportunities.
               </h2>
