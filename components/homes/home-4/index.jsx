@@ -160,7 +160,7 @@ export default function Home4({ onePage = false, dark = false }) {
               <div className="icon-text px-3">
                 <FaBook style={{ fontSize: "100px", color: "#dc3545" }} />
                 <p className="large-text mt-3" style={{ wordSpacing: "10px" }}>
-                  Courses From 10 Lakhs
+                  Courses From 10 Lakhs Onwards
                 </p>
               </div>
             </div>

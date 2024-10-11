@@ -72,9 +72,9 @@ export const qualities = [
 ];
 
 export const features = [
-  { id: 1, text: "20+ Partner Universities In Ireland" },
-  { id: 2, text: "200+ Students Successfully Enrolled" },
-  { id: 3, text: "Scholarships Up To 50%" },
+  { id: 1, text: "Admissions Open For 2025 Jan Intakes" },
+  { id: 2, text: "University Eligibility Check In 24 Hours" },
+  { id: 3, text: "Highly Experienced Counselors" },
 ];
 
 export const features2 = [
