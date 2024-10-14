@@ -18,7 +18,7 @@ const ThankYou = () => {
   return (
     <div className="container text-center my-5">
       <div className="thank-you-message">
-        <img
+        <Image
           src="/assets/images/nirmal-lp/thank_you.jpg"
           alt="Thank you"
           className="img-fluid mb-4"
