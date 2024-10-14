@@ -2,6 +2,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 const ThankYou = () => {
   const router = useRouter();
@@ -27,7 +28,7 @@ const ThankYou = () => {
           Form Submitted Successfully!
         </h2>
         <p className="lead text-muted">
-          Thank you for getting in touch! We'll get back to you soon.
+          Thank you for getting in touch! We&apos;ll get back to you soon.
         </p>
       </div>
     </div>
