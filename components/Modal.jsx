@@ -35,21 +35,6 @@ const FullScreenModal = ({ isOpen, onClose }) => {
 export const ModalTrigger = ({ isOpen, onClose }) => {
   return (
     <>
-      {/* <button
-        style={{
-          backgroundColor: "#1961FA",
-          borderColor: "#1961FA",
-          color: "#fff", // White text color
-          padding: "10px 20px", // Increased padding
-          fontSize: "1rem", // Font size
-          borderRadius: "5px", // Rounded corners
-          transition: "background-color 0.3s", // Smooth transition for hover effect
-        }}
-        onClick={onClose} // Close the modal when the button is clicked
-      >
-        Know Admission Procedures
-      </button> */}
-
       <FullScreenModal isOpen={isOpen} onClose={onClose} />
     </>
   );
